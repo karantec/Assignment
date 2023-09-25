@@ -1,0 +1,14 @@
+.height{
+    width:304px;
+    height: 1080px;
+    background-color:  #FFFFFF !important;
+
+}
+.color{
+    background-color: #7A58E6!important;
+    width: 240px !important;
+    height: 66px !important;
+    top: 204px !important;
+    left: 32px !important;
+    border-radius: 16px !important;
+}

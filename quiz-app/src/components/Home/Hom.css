@@ -27,3 +27,8 @@
 .bold{
     font-weight: bold;
 }
+
+.border{
+    background-color: #746e6e30!important;
+    border-radius: 1rem !important;
+}

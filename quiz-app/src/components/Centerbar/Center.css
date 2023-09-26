@@ -1,10 +1,22 @@
-.color{
-    background-color: white;
-    width: 523px;
-    height: 667px;
+.self{
+    width: 31rem!important;
+    background-color: red !important;
+    height: 33rem !important;
+    border-radius: 32px !important;
+    margin-top: 5rem;
 }
-.color2{
-    margin-top: 2rem !important;
-    width: 23rem !important;
-    background-color: #7A58E6 !important;
+.center{
+    height: 4rem !important;
+    margin-right: 3rem !important;
+    width: 4rem !important;
+    border-radius: 3rem !important;
+    border: 5px solid blue!important;
+}
+.center1{
+    margin-left: 2rem !important;
+    padding-top: 1rem !important;
+}
+.custom-dropdown .dropdown-toggle::after {
+    content: '\f107' !important; /* FontAwesome chevron-down icon for the arrow */
+    padding-left: 0.5rem !important;  /* Add spacing between text and arrow */
 }

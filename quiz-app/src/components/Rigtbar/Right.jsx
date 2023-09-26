@@ -3,11 +3,10 @@ const Rightbar= () => {
   return (
 <>
 <div className="d-flex flex-column  flex-shrink-0 p-3  color1 height fixed-top">
-   
     <ul className="nav nav-pills flex-column mb-auto">
       <li className="nav-item">
         <a href="#" className="nav-link active color">
-        <div className="flex-column d-flex justify-content-center center">
+        <div className="flex-column d-flex justify-content-center ">
          <h4>Total Users</h4>
          <p>1,000</p>
          </div>
@@ -23,31 +22,32 @@ const Rightbar= () => {
       </li>
       <li className="mt-2">
         <a href="#" className="nav-link link-body-emphasis">
-        <div className="d-flex">
-        <div className="p-2">Name</div>
-         <div className="p-2">Name</div>
+        <div className="d-flex ">
+       <img src="picture2.png"></img>
+         <h5 className="p-2 setter">Name</h5>
    
         </div>
           </a>
       </li>
       <li className="mt-2">
         <a href="#" className="nav-link link-body-emphasis">
-        <div className="d-flex">
-        <div className="p-2">Name</div>
-         <div className="p-2">Name</div>
-      
+        <div className="d-flex ">
+       <img src="picture2.png"></img>
+         <h5 className="p-2 setter">Name</h5>
+   
         </div>
           </a>
       </li>
       <li className="mt-2">
         <a href="#" className="nav-link link-body-emphasis">
-        <div className="d-flex">
-        <div className="p-2">Name</div>
-        <div className="p-2">Name</div>
-        
+        <div className="d-flex ">
+       <img src="picture2.png"></img>
+         <h5 className="p-2 setter">Name</h5>
+   
         </div>
           </a>
       </li>
+      
       
      
       

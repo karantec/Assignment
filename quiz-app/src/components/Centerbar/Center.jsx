@@ -2,72 +2,32 @@ import "./Center.css"
 const Center = () => {
   return (
     <div>
-<div className="container my-5">
-  <div className="p-5 text-center  rounded-3 justify-center color">
-  <div className="dropdown">
-  <a className="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-    Language
-  </a>
+     <div className="d-flex justify-content-between mt-5">
+       <h3 className="center1">Create Quiz</h3>
+       <div className="d-flex justify-content-between  space-x-5">
+       <img className="center" src="Vector.png"></img>
+       <img  className="center" src="picture.png"></img>
+       </div>
+        
+     </div>
 
-  <ul className="dropdown-menu">
-    <li><a className="dropdown-item" href="#">Action</a></li>
-    <li><a className="dropdown-item" href="#">Another action</a></li>
-    <li><a className="dropdown-item" href="#">Something else here</a></li>
-  </ul>
+     <div className="container align-self-center self">
+     <div className="dropdown custom-dropdown">
+                    <button className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown with Arrow
+                    </button>
+                    <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a className="dropdown-item" href="#">Item 1</a>
+                        <a className="dropdown-item" href="#">Item 2</a>
+                        <a className="dropdown-item" href="#">Item 3</a>
+                        <div className="dropdown-divider"></div>
+                        <a className="dropdown-item" href="#">Item 4</a>
+                    </div>
+                </div>
+                </div>
 </div>
-<div className="dropdown">
-  <a className="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-    Class
-  </a>
-  <ul className="dropdown-menu">
-    <li><a className="dropdown-item" href="#">Action</a></li>
-    <li><a className="dropdown-item" href="#">Another action</a></li>
-    <li><a className="dropdown-item" href="#">Something else here</a></li>
-  </ul>
-</div>
-<div className="dropdown">
-  <a className="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-    Subject
-  </a>
-
-  <ul className="dropdown-menu">
-    <li><a className="dropdown-item" href="#">Action</a></li>
-    <li><a className="dropdown-item" href="#">Another action</a></li>
-    <li><a className="dropdown-item" href="#">Something else here</a></li>
-  </ul>
-</div>
-<div className="dropdown">
-  <a className="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-   Topic
-  </a>
-
-  <ul className="dropdown-menu">
-    <li><a className="dropdown-item" href="#">Action</a></li>
-    <li><a className="dropdown-item" href="#">Another action</a></li>
-    <li><a className="dropdown-item" href="#">Something else here</a></li>
-  </ul>
-</div>
-<div className="dropdown">
-  <a className="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-    Select User
-  </a>
-
-  <ul className="dropdown-menu">
-    <li><a className="dropdown-item" href="#">Action</a></li>
-    <li><a className="dropdown-item" href="#">Another action</a></li>
-    <li><a className="dropdown-item" href="#">Something else here</a></li>
-  </ul>
-</div>
-    <div className="d-inline-flex gap-2 mb-5 ">
-      <button className="d-inline-flex align-items-center px-4 color2" type="button">
-       Assign User
-       
-      </button>
      
-    </div>
-  </div>
-</div>
-    </div>
+  
   )
 }
 
